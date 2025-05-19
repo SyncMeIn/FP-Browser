@@ -70,8 +70,11 @@
 以下两张 GIF 截图展示一下：
 
 * [改机后](https://imgur.com/a/1GI3dMx)
+https://github.com/user-attachments/assets/4cf2f3d8-9195-471d-a5d1-6d6906baeb5c
 <video  style="width:40%"><source src="https://raw.githubusercontent.com/SyncMeIn/FP-Browser/refs/heads/master/docs/改机后.mp4"></source></video>
+
 * [改机前](https://imgur.com/a/aD1jXqj)
+https://github.com/user-attachments/assets/5272b755-c073-464a-bd29-3690774b583f
 <video src="https://raw.githubusercontent.com/SyncMeIn/FP-Browser/refs/heads/master/docs/改机前.mp4" style="width:40%"></video>
 
 ## 注入选项
