@@ -1,7 +1,7 @@
 ## 联系我
-微信: @tyua07
+微信: @kainyguo
 
-![wechat](https://github.com/tyua07/FP-Browser-Detect/raw/master/docs/wechat.jpg)
+<img src="https://oray.kainy.cn:38002/https://oray.kainy.cn:38400/_upload/content/temp/1730625562253image.png" style="width:40%"/>
 
 ## 项目介绍
 这是一个移动端指纹浏览器项目，我们通过收集需要测试的手机型号的配置，使用虚拟化创建模拟器，再通过代码方式注入到模拟器的浏览器运行时环境，从而达到动态修改浏览器运行时环境的功能，让模拟器里的浏览器环境和真机里的环境保持一致。
@@ -16,13 +16,13 @@
 * 多架构平台 app。我们提供 arm、arm64、x84_64 等平台的浏览器。当然如果您有需求，我们还可以提供更多。
 * 分布式测试。我们拥有完整的分布式测试的解决方案，让您可以快速、高效的进行大批量数据测试。
 * 客户端 SDK。示例中我们实际是拿一个 json 去注入，这样可能会造成参数格式错误。对此，我们完成了注入项的全部 sdk 功能开发，以确保每个参数的合法性。并且我们还会提供每个参数的详细解释，来确保用户的场景准确性。
-* [浏览器检测](https://github.com/tyua07/FP-Browser-Detect) 。公开的项目我们只是提供了部分的检测项。在完整版中，对于每一项修改项都有完整的单元测试检测。
+* [浏览器检测](https://github.com/SyncMeIn/FP-Browser-Detect) 。公开的项目我们只是提供了部分的检测项。在完整版中，对于每一项修改项都有完整的单元测试检测。
 
 ## 相关开源项目
-* [FP-Browser-Public 浏览器底层动态注入](https://github.com/tyua07/FP-Browser-Public) 
-* [FP-Browser-Detect 浏览器属性检测](https://github.com/tyua07/FP-Browser-Detect)
-* [FP-Browser-SDK 浏览器属性注入参数 SDK](https://github.com/tyua07/FP-Browser-SDK)
-* [FP-Browser-Test 指纹浏览器全部选项的测试用例](https://github.com/tyua07/FP-Browser-Test)
+* [FP-Browser-Public 浏览器底层动态注入](https://github.com/SyncMeIn/FP-Browser/) 
+* [FP-Browser-Detect 浏览器属性检测](https://github.com/SyncMeIn/FP-Browser-Detect)
+* [FP-Browser-SDK 浏览器属性注入参数 SDK](https://github.com/SyncMeIn/FP-Browser-SDK)
+* [FP-Browser-Test 指纹浏览器全部选项的测试用例](https://github.com/SyncMeIn/FP-Browser-Test)
 
 
 ## 动态注入前后对比
@@ -54,23 +54,25 @@
 ```
 
 ### 静态网站检测
-我们开源了这些浏览器属性的检测项源码，可以直接参考 [FP-Browser-Detect](https://github.com/tyua07/FP-Browser-Detect) 进行对照。
+我们开源了这些浏览器属性的检测项源码，可以直接参考 [FP-Browser-Detect](https://github.com/SyncMeIn/FP-Browser-Detect) 进行对照。
 
 ### 注入前
 
-![之前](https://github.com/tyua07/FP-Browser-Public/raw/master/docs/before_1.png)
-![之前](https://github.com/tyua07/FP-Browser-Public/raw/master/docs/before_2.png)
+<img src="https://raw.githubusercontent.com/SyncMeIn/FP-Browser/refs/heads/master/docs/before_1.png" style="width:40%"/>
+<img src="https://raw.githubusercontent.com/SyncMeIn/FP-Browser/refs/heads/master/docs/before_2.png" style="width:40%"/>
 
 ### 注入后
 
-![之前](https://github.com/tyua07/FP-Browser-Public/raw/master/docs/after_1.png)
-![之前](https://github.com/tyua07/FP-Browser-Public/raw/master/docs/after_2.png)
+<img src="https://raw.githubusercontent.com/SyncMeIn/FP-Browser/refs/heads/master/docs/after_1.png" style="width:40%"/>
+<img src="https://raw.githubusercontent.com/SyncMeIn/FP-Browser/refs/heads/master/docs/after_2.png" style="width:40%"/>
 
 ### 注入对比
 以下两张 GIF 截图展示一下：
 
 * [改机后](https://imgur.com/a/1GI3dMx)
+<video  style="width:40%"><source src="https://raw.githubusercontent.com/SyncMeIn/FP-Browser/refs/heads/master/docs/改机后.mp4"></source></video>
 * [改机前](https://imgur.com/a/aD1jXqj)
+<video src="https://raw.githubusercontent.com/SyncMeIn/FP-Browser/refs/heads/master/docs/改机前.mp4" style="width:40%"></video>
 
 ## 注入选项
 
@@ -521,7 +523,7 @@ basic = Basic() \
 
 ##### 拉取代码
 
-``cd ~ && git clone https://github.com/tyua07/FP-Browser-Public.git``
+``cd ~ && git clone https://github.com/SyncMeIn/FP-Browser/.git``
 
 ##### 执行测试
 
@@ -564,7 +566,7 @@ emulator-5554   offline
 
 ##### 拉取代码
 
-``git clone https://github.com/tyua07/FP-Browser-Public.git``
+``git clone https://github.com/SyncMeIn/FP-Browser/.git``
 
 ##### 安装依赖
 
